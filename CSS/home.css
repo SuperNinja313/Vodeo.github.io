@@ -1,0 +1,84 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(15, 15, 15);
+}
+
+button {
+    background-color: rgb(15, 15, 15);
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.most-popular-btn {
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 15px;
+    transition: 0.25s;
+    margin-left: 400px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: lime;
+    cursor: pointer;
+}
+
+.ico {
+    margin-top: 15px;
+    height: 145px;
+}
+
+.ttico {
+    color: white;
+    margin-top: 10px;
+    height: 90px;
+    margin-left: 1250px;
+}
+
+.dsico {
+    color: white;
+    margin-top: 10px;
+    height: 90px;
+    margin-left: 75px;
+}
+
+.thumbnail {
+    width: 425px;
+    transition: 0.25s;
+}
+
+.thumbnail:hover {
+    width: 500px;
+    transition: 0.25s;
+}
+
+.videos {
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.videos2 {
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-main {
+    background-color: rgb(15, 15, 15);
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
